@@ -7,10 +7,10 @@ This repo is for Xcode iOS project and file template, revised on Xcode 11.
 - File template (Coordinator)
 
 # How to use
-1 - Download the all the files
-2 - cut the root folder (Templates)
-3 - paste on ```~/Library/Developer/Xcode/``` (Tip: on Finder press ```Cmd + Shift + G``` paste the folder path)
-4 - Done, re-start your XCode you will see the template when tou start a new project on template selection
+1. Download the all the files
+2. cut the root folder (Templates)
+3. paste on ```~/Library/Developer/Xcode/``` (Tip: on Finder press ```Cmd + Shift + G``` paste the folder path)
+4. Done, re-start your XCode you will see the template when tou start a new project on template selection
 
 ### TODO
 - File template: more file templates (viewModel, viewControllers, etc.)
