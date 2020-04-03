@@ -62,7 +62,7 @@
 						<key>RequiredOptions</key>
 						<dict>
 							<key>userInterface</key>
-							<string>Storyboard</string>
+							<string>No Storyboard</string>
 						</dict>
 						<key>Nodes</key>
 						<array>
@@ -251,7 +251,7 @@ let contentView = ContentView().environment(\.managedObjectContext, context)
 			<key>Values</key>
 			<array>
 				<string>SwiftUI</string>
-				<string>Storyboard</string>
+				<string>No Storyboard</string>
 			</array>
 			<key>RequiredOptionsForValues</key>
 			<dict>
