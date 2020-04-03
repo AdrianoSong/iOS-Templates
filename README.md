@@ -3,10 +3,10 @@ This repo is for Xcode iOS project and file template, revised on Xcode 11.
 **Only for Swift projects (Not available for Ojective-C or SwiftUI)**
 
 # Requirements
-You have to install Swiftlint(code smell tool) before download the templates.
+You have to install **SwiftLint(code smell tool)** before download the templates.
 
 # Features
-- Project template (on MVVM-C architecture with Swiftlint)
+- Project template (on MVVM-C architecture with SwiftLint)
 - File template (Coordinator)
 
 # How to use
