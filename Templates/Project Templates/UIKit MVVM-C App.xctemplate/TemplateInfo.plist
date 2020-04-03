@@ -80,6 +80,7 @@
 							<string>DebugWindow.swift</string>
 							<string>DebugMenuViewController.swift</string>
 							<string>VCViewModel.swift</string>
+							<string>swiftlint.yml</string>
 						</array>
 						<key>Definitions</key>
 						<dict>
@@ -114,6 +115,11 @@
 							<dict>
 								<key>Path</key>
 								<string>VCViewModel.swift</string>
+							</dict>
+							<key>swiftlint.yml</key>
+							<dict>
+								<key>Path</key>
+								<string>swiftlint.yml</string>
 							</dict>
 							<key>Info.plist:UIMainStoryboardFile</key>
 							<string></string>
@@ -150,6 +156,26 @@ hello.centerXAnchor.constraint(
 	
 hello.text = viewModel.sayHello()</string>
 						</dict>
+						<key>Targets</key>
+						<array>
+							<dict>
+								<key>BuildPhases</key>
+								<array>
+									<dict>
+										<key>Class</key>
+										<string>ShellScript</string>
+										<key>ShellPath</key>
+										<string>/bin/sh</string>
+										<key>ShellScript</key>
+										<string>if which swiftlint >/dev/null; then
+  swiftlint
+else
+  echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
+fi</string>
+									</dict>
+								</array>
+							</dict>
+						</array>
 					</dict>
 					<dict>
 						<key>RequiredOptions</key>
