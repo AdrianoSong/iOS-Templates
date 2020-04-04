@@ -9,7 +9,7 @@ You have to install **SwiftLint(code smell tool)** before download the templates
 - Project template:
   - MVVM-C architecture
   - SwiftLint
-  - API layer (BaseApi.Swift and ApiRouter.swift)**OBS: this layer is based on Alamofire and RxSwift, all content is commented, its your choice to use or not (sample how to use on VCViewModel.swift)**
+  - API layer (BaseApi.Swift and ApiRouter.swift) **this layer is based on Alamofire and RxSwift, all content is commented, its your choice to use or not (sample how to use on VCViewModel.swift)**
 - File template (Coordinator)
 
 # How to use
