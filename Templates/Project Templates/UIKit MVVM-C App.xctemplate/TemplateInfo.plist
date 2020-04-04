@@ -80,6 +80,8 @@
 							<string>DebugWindow.swift</string>
 							<string>DebugMenuViewController.swift</string>
 							<string>VCViewModel.swift</string>
+							<string>BaseApi.swift</string>
+							<string>ApiRouter.swift</string>
 							<string>swiftlint.yml</string>
 						</array>
 						<key>Definitions</key>
@@ -115,6 +117,16 @@
 							<dict>
 								<key>Path</key>
 								<string>VCViewModel.swift</string>
+							</dict>
+							<key>BaseApi.swift</key>
+							<dict>
+								<key>Path</key>
+								<string>BaseApi.swift</string>
+							</dict>
+							<key>ApiRouter.swift</key>
+							<dict>
+								<key>Path</key>
+								<string>ApiRouter.swift</string>
 							</dict>
 							<key>swiftlint.yml</key>
 							<dict>
