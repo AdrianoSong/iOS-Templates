@@ -5,12 +5,13 @@
 //  Created by Adriano Song on 4/2/20.
 //
 
+import Foundation
 //import RxSwift
 
 class VCViewModel {
 
     func sayHello() -> String {
-        return "Hello World!"
+        return NSLocalizedString("hello.world", comment: "")
     }
 
     ///Example how to use Api layer

@@ -83,6 +83,7 @@
 							<string>BaseApi.swift</string>
 							<string>ApiRouter.swift</string>
 							<string>swiftlint.yml</string>
+							<string>Localizable.strings</string>
 						</array>
 						<key>Definitions</key>
 						<dict>
@@ -132,6 +133,11 @@
 							<dict>
 								<key>Path</key>
 								<string>swiftlint.yml</string>
+							</dict>
+							<key>Localizable.strings</key>
+							<dict>
+								<key>Path</key>
+								<string>Localizable.strings</string>
 							</dict>
 							<key>Info.plist:UIMainStoryboardFile</key>
 							<string></string>
