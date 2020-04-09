@@ -9,6 +9,7 @@ You have to install **SwiftLint(code smell tool)** before download the templates
 - Project template:
   - MVVM-C architecture
   - No storyboard based (Programmatically views)
+  - Debug Menu based (Made easy to create mock cases)
   - Base Localizable (English)
   - SwiftLint
   - API layer (BaseApi.Swift and ApiRouter.swift) **this layer is based on Alamofire and RxSwift, all content is commented, its your choice to use or not (sample how to use on VCViewModel.swift)**
