@@ -81,11 +81,13 @@ extension DebugMenuViewController {
 }
 
 extension DebugMenuViewController: UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(
+        _ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return DebugOptions.allCases.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(
+        _ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell") else {
             return UITableViewCell()
         }
@@ -95,12 +97,13 @@ extension DebugMenuViewController: UITableViewDataSource {
         return configureCell(item, cell)
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    func tableView(
+        _ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 50.0
     }
     
-    fileprivate func configureCell(_ item: DebugMenuViewController.DebugOptions,
-                                   _ cell: UITableViewCell) -> UITableViewCell {
+    fileprivate func configureCell(
+        _ item: DebugMenuViewController.DebugOptions, _ cell: UITableViewCell) -> UITableViewCell {
         
         switch item {
         case .buildVersion:
@@ -108,8 +111,8 @@ extension DebugMenuViewController: UITableViewDataSource {
         }
     }
     
-    fileprivate func configureBuildVersionCell(item: DebugMenuViewController.DebugOptions,
-                                               cell: UITableViewCell) -> UITableViewCell {
+    fileprivate func configureBuildVersionCell(
+        item: DebugMenuViewController.DebugOptions, cell: UITableViewCell) -> UITableViewCell {
         let bundleVersion =
             "\(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "")" +
             " - \(Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "")"
