@@ -15,6 +15,8 @@ You have to install **SwiftLint(code smell tool)** before download the templates
   - API layer (BaseApi.Swift and ApiRouter.swift) **this layer is based on Alamofire and RxSwift, all content is commented, its your choice to use or not (sample how to use on VCViewModel.swift)**
 - File template:
   - Coordinator
+  - ViewController (view programmatically)
+  - ApiRouter (using Alamofire)
 
 # How to use
 1. Download the all the files
@@ -23,7 +25,7 @@ You have to install **SwiftLint(code smell tool)** before download the templates
 4. Done, re-start your XCode you will see the template when tou start a new project on template selection
 
 ### TODO
-- File template: more file templates (viewModel, ApiRouter, viewControllers, etc.)
+- File template: more file templates (viewModel, etc.)
 - Project template: link with basic thrid-party libraries (Ex: Alamofire)
 
 License
