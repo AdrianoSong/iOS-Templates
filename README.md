@@ -16,6 +16,7 @@ You have to install **SwiftLint(code smell tool)** before download the templates
 - File template:
   - Coordinator
   - ViewController (view programmatically)
+  - TableViewController (view programmatically)
   - ApiRouter (using Alamofire)
 
 # How to use
