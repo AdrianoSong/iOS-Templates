@@ -82,7 +82,7 @@
 							<string>VCViewModel.swift</string>
 							<string>BaseApi.swift</string>
 							<string>ApiRouter.swift</string>
-							<string>swiftlint.yml</string>
+							<string>.swiftlint.yml</string>
 							<string>Localizable.strings</string>
 						</array>
 						<key>Definitions</key>
@@ -129,10 +129,10 @@
 								<key>Path</key>
 								<string>ApiRouter.swift</string>
 							</dict>
-							<key>swiftlint.yml</key>
+							<key>.swiftlint.yml</key>
 							<dict>
 								<key>Path</key>
-								<string>swiftlint.yml</string>
+								<string>.swiftlint.yml</string>
 							</dict>
 							<key>Localizable.strings</key>
 							<dict>

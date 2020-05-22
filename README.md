@@ -15,9 +15,10 @@ You have to install **SwiftLint(code smell tool)** before download the templates
   - API layer (BaseApi.Swift and ApiRouter.swift) **this layer is based on Alamofire and RxSwift, all content is commented, its your choice to use or not (sample how to use on VCViewModel.swift)**
 - File template:
   - Coordinator
-  - ViewController (view programmatically)
-  - TableViewController (view programmatically)
-  - ApiRouter (using Alamofire)
+  - View Controller (view programmatically)
+  - Table View Controller (view programmatically)
+  - Api Router (using Alamofire)
+  - Card Collection View Controller (view programmatically)
 
 # How to use
 1. Download the all the files
