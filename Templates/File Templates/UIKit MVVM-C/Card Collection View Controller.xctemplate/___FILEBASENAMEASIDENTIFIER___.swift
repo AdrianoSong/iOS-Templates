@@ -70,7 +70,9 @@ extension ___FILEBASENAMEASIDENTIFIER___ViewController: UICollectionViewDataSour
         return 3
     }
 
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        func collectionView(
+        _ collectionView: UICollectionView,
+        cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier:
             Constants.cell, for: indexPath) as? ___FILEBASENAMEASIDENTIFIER___Cell else {
             return UICollectionViewCell()
