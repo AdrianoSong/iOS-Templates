@@ -1,6 +1,6 @@
 # ios-Templates
-This repo is for Xcode iOS project and file template, revised on Xcode 11.
-**Only for Swift projects (Not available for Ojective-C or SwiftUI)**
+This repo is for Xcode iOS project and file template, revised on Xcode 12 **(Life Cycle: UIKit App Delegate)**.
+**Only for Swift projects (UIKit and SwiftUI) (Not available for Ojective-C)**
 
 # Requirements
 You have to install **SwiftLint(code smell tool)** before download the templates.
