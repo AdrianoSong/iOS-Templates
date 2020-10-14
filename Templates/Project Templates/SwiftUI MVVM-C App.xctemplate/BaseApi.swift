@@ -62,6 +62,35 @@
 //        }
 //    }
 //
+//    static func stringRequest(urlConvertile: URLRequestConvertible) -> Observable<String> {
+//        return Observable<String>.create { emitter in
+//            let request = AF.request(urlConvertile).validate().responseString(completionHandler: { data in
+//                switch data.response?.statusCode {
+//                case 200:
+//                    switch data.result {
+//                    case .success(let dataValue):
+//                        printSuccessData(data: dataValue.data(using: .utf8) ?? Data())
+//                        emitter.onNext(dataValue)
+//                        emitter.onCompleted()
+//                    case .failure(let error):
+//                        emitter.onError(error)
+//                    }
+//                case 400:
+//                    emitter.onError(AlamoError.badRequest(description: "bad request"))
+//                case 403:
+//                    emitter.onError(AlamoError.forbidden)
+//                case 404:
+//                    emitter.onError(AlamoError.notFound)
+//                default:
+//                    emitter.onError(AlamoError.unknown)
+//                }
+//            })
+//            return Disposables.create {
+//                request.cancel()
+//            }
+//        }
+//    }
+//
 //    static func printSuccessData(data: Data) {
 //        #if DEBUG
 //            let successString = String(decoding: data, as: UTF8.self)
