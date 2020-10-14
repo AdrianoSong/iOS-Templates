@@ -62,7 +62,7 @@
 //        }
 //    }
 //
-//    static func stringRequest(urlConvertile: URLRequestConvertible) -> Observable<String> {
+//    static func request(urlConvertile: URLRequestConvertible) -> Observable<String> {
 //        return Observable<String>.create { emitter in
 //            let request = AF.request(urlConvertile).validate().responseString(completionHandler: { data in
 //                switch data.response?.statusCode {
