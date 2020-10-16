@@ -64,13 +64,13 @@
 //
 //    static func request(urlConvertile: URLRequestConvertible) -> Observable<String> {
 //        return Observable<String>.create { emitter in
-//            let request = AF.request(urlConvertile).validate().responseString(completionHandler: { data in
+//            let request = AF.request(urlConvertile).validate().responseData { data in
 //                switch data.response?.statusCode {
 //                case 200:
 //                    switch data.result {
 //                    case .success(let dataValue):
-//                        printSuccessData(data: dataValue.data(using: .utf8) ?? Data())
-//                        emitter.onNext(dataValue)
+//                        printSuccessData(data: dataValue)
+//                        emitter.onNext(String(decoding: dataValue, as: UTF8.self))
 //                        emitter.onCompleted()
 //                    case .failure(let error):
 //                        emitter.onError(error)
@@ -84,7 +84,7 @@
 //                default:
 //                    emitter.onError(AlamoError.unknown)
 //                }
-//            })
+//            }
 //            return Disposables.create {
 //                request.cancel()
 //            }
