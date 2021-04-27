@@ -105,6 +105,7 @@
                             <string>Coordinator.swift</string>
                             <string>VCViewModel.swift</string>
 							<string>BaseApi.swift</string>
+                            <string>ApiRouterProtocol.swift</string>
 							<string>ApiRouter.swift</string>
 							<string>.swiftlint.yml</string>
 							<string>Localizable.strings</string>
@@ -146,6 +147,11 @@
 							<dict>
 								<key>Path</key>
 								<string>BaseApi.swift</string>
+							</dict>
+                            <key>ApiRouterProtocol.swift</key>
+							<dict>
+								<key>Path</key>
+								<string>ApiRouterProtocol.swift</string>
 							</dict>
 							<key>ApiRouter.swift</key>
 							<dict>

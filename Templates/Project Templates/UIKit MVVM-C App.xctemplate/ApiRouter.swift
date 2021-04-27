@@ -8,27 +8,6 @@
 //import Foundation
 //import Alamofire
 //
-//protocol ApiRouterProtocol: URLRequestConvertible {
-//    var path: String { get }
-//    var parameters: Parameters? { get }
-//    var method: HTTPMethod { get }
-//
-//    func asURLRequest() throws -> URLRequest
-//}
-//
-///The header fields
-//enum HttpHeaderField: String {
-//    case authentication = "Authorization"
-//    case contentType = "Content-Type"
-//    case acceptType = "Accept"
-//    case acceptEncoding = "Accept-Encoding"
-//}
-//
-///The content type (JSON)
-//enum ContentType: String {
-//    case json = "application/json"
-//}
-//
 ///You can Create specific ApiRouter (ex: User) each one needs to conform ApiRouterProtocol
 //enum ApiRouter: ApiRouterProtocol {
 //

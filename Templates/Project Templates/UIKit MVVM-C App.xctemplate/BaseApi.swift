@@ -9,14 +9,6 @@
 //import Alamofire
 //import RxSwift
 //
-//enum AlamoError: Error {
-//    case invalidURL
-//    case badRequest (description: String)
-//    case notFound
-//    case forbidden
-//    case unknown
-//}
-//
 //class BaseApi {
 //
 //    static func request<T: Codable>(urlConvertile: URLRequestConvertible) -> Observable<T> {
